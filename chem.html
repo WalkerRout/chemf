@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	 
+	<head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<title>WRout Chemistry Project</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q==" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+        
+    </head>
+
+    
+	<body>
+        <header>
+            <div class="head-logo">
+                <img src="img/headlogo.png" alt="Head Logo">
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="menu"></span>
+            </button>
+    
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Top of Page</a></li>
+                    <li class="nav__item"><a href="#general-information" class="nav__link">General Information</a></li>
+                    <li class="nav__item"><a href="#end-point" class="nav__link">End Point</a></li>
+                    <li class="nav__item"><a href="#transition-point" class="nav__link">Transition Point</a></li>
+                    <li class="nav__item"><a href="#equivalence-point" class="nav__link">Equivalence Point</a></li>
+                    <li class="nav__item"><a href="#stoichiometric-point" class="nav__link">Stoichiometric Point</a></li>
+                    <li class="nav__item"><a href="#standard-solution" class="nav__link">Standard Solution</a></li>
+                    <li class="nav__item"><a href="#primary-standard" class="nav__link">Primary Standard</a></li>
+                    <li class="nav__item"><a href="#weak-acid-strong-base" class="nav__link">Weak Acid and Strong Base</a></li>
+                    <li class="nav__item"><a href="#strong-acid-weak-base" class="nav__link">Strong Acid and Weak Base</a></li>
+                    <li class="nav__item"><a href="#strong-acid-strong-base" class="nav__link">Strong Acid and Strong Base</a></li>
+                    <li class="nav__item"><a href="#indicators" class="nav__link">Indicators</a></li>
+                    <li class="nav__item"><a href="#equilibrium" class="nav__link">Equilibrium</a></li>
+                    <li class="nav__item"><a href="#salt-solubility" class="nav__link">Salt Solubility</a></li>
+                    <li class="nav__item"><a href="#hydrolysis" class="nav__link">Hydrolysis</a></li>
+                    <li class="nav__item"><a href="#buffers" class="nav__link">Buffers</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Chemistry 12 <strong>Final Project</strong>
+            </h1>
+
+            <p class="section__subtitle section__subtitle--intro">created by <a href="https://walker.rout.ca" target="_blank">walker rout</a></p>
+
+            <div class="logo">
+                <img src="img/chemlogo.png" alt="Chem Logo">
+            </div>
+        </section>
+
+
+        <!-- Information -->
+
+
+        <!-- Titration -->
+        <section class="titration-info" id="titration">
+            <h2 class="section__title section__title-titration">Titration</h2>
+            <div class="titration-main">
+
+                <div class="titration" id="general-information">
+                    <h3>General Information</h3>
+                    <p>The purpose of an acid-base titration is to determine the concentration of a titrand/analyte (solution of unknown concentration) through a neutralization reaction involving a titrant (solution of known concentration). The titration will continue until all of the moles of OH- in the base solution have neutralized all of the moles of H- in the acid solution.</p>
+                </div>
+
+                <div class="titration" id="end-point">
+                    <h3>End Point</h3>
+                    <p>The endpoint of a titration is when the titration stops. The titration stops at the point where the acid and base have <a href="#equivalence-point">neutralized</a> (moles are equal) each other.</p>
+                </div>
+
+                <div class="titration" id="transition-point">
+                    <h3>Transition Point</h3>
+                    <p>The transition point of a titration is when the solution's pH reaches the pH of the indicators midpoint. At this time, the indicator's color will be the color between its starting pH range and ending pH range. This point is also typically when the titration is <a href="#end-point">stopped</a>, since it is also <a href="#stoichiometric-point">when the moles of OH- and H+ are neutralized</a></p>
+                </div>
+
+                <div class="titration" id="equivalence-point">
+                    <h3>Equivalence Point</h3>
+                    <p>The equivalence point in a titration is where the H+ and OH- have completely neutralized each other (<a href="#stoichiometric-point">moles of H+ and OH- are equal</a>). At this point, the solution is not always neutral. In titrations involving <a href="#weak-acid-strong-base">weak acids and strong bases</a> or <a href="#strong-acid-weak-base">strong acids and weak bases</a>, the respective weak acids/bases will not dissociate completely while the strong acids/bases will. This leads to an increase in the amount of H+/OH-, causing the equivalence point to be either less than or greater than a pH of 7.00</p>
+                </div>
+
+                <div class="titration" id="stoichiometric-point">
+                    <h3>Stoichiometric Point</h3>
+                    <p>The stoichiometric point of a titration is when the moles of OH- and H+ are equal to each other. this is the point where the acid and base have truly <a href="#end-point">neutralized each other.</a></p>
+                </div>
+
+                <div class="titration" id="standard-solution">
+                    <h3>Standard Solution</h3>
+                    <p>A standard solution is a solution of known concentration used to perform a titration against a solution with an unknown concentration. A standard solution can be created by determining the mass of a (pure) dry substance (calculated by finding the volume and molarity desired), and dissolving it into distilled water up to the aforementioned volume. Unfortunately, some acids and bases are extremely hygroscopic, meaning they tend to absorb large amounts of water. This can cause an issue when trying to accurately determine the mass of the substance, since some of the mass would be the mass of the water as well. In order to combat this, something called a <a href="#primary-standard">primary standard</a> is used to fulfill the same purpose as the standard solution.</p>
+                </div>
+
+                <div class="titration" id="primary-standard">
+                    <h3>Primary Standard</h3>
+                    <p>A primary standard serves the same purpose as the <a href="#standard-solution">standard solution</a>, however it is highly pure, non-hygroscopic, reacts rapidly with solution to be standardized, and is of a known concentration (same as standard solution). By using a primary standard, it is possible to measure a more accurate mass due to less interference from outside substances (primarily water). The primary standard is prepared the same way the standard solution is prepared; a volume and molarity is chosen, and given those values the mass of a substance required is calculated. The substance is accurately weighed out, and <a href="#salt-solubility">dissolved into distilled water</a> until the volume previously stated is met.</p>
+                </div>
+
+                
+                <!-- Titration images -->
+
+                <div class="titration" id="weak-acid-strong-base">
+                    <h3>Weak Acid Strong Base</h3>
+                    <img src="img/weakacidstrongbase.jpg" alt="weakacidstrongbase">
+
+                    <p>The above image is a graph of a titration between a weak acid and strong base. The y-axis represents the change in pH, and the x-axis represents the addition of base (in milliliters) to the solution. At the start of this titration, the weak acid will only partially dissociate while the strong base will completely dissociate. This leads to a buffer zone, in which the pH does not change drastically due to the weak acid and its conjugate base. Any addition of H+ will be absorbed by the base, and any addition of OH- will cause the weak acid to donate an H+ to form water (neutral, no pH major change). Once the addition of base supercedes the low pH change wiggle room of the buffer zone, the <a href="#equivalence-point">equivalence point</a> is soon reached when the addition of the base is enough to <a href="#stoichiometric-point">completely neutralize (moles H+ = OH-)</a> the acid. At the moment in time where the <a href="#equivalence-point">equivalence point</a>/<a href="#stoichiometric-point">stoichiometric point</a> (interchangeable) is reached, so is the <a href="#transition-point">transition point</a> (as long as the equivalence point pH is within the midpoint range of a chosen indicator), and therefore the <a href="#end-point">end point</a> as well. In this specific example of a weak acid and a strong base, the equivalence point pH is greater than 7.00. This is because that even though the H+ and OH- have been neutralized, the <strong><a href="#hydrolysis">weak acid's conjugate base</a></strong> is left in solution, causing the pH to be more basic.</p>
+                </div>
+
+                <div class="titration" id="strong-acid-weak-base">
+                    <h3>Strong Acid Weak Base</h3>
+                    <img src="img/strongacidweakbase.png" alt="strongacidweakbase" width="40%" height="40%">
+
+                    <p>Disclaimer: the image above is representing a titration with a titrant that is a base and a titrand that is an acid; this leads to the overall pH at the start of the titration to be basic, and in turn, the graph is flipped along the y-axis. If this titration was done using the base as a titrand and the acid as the titrant, the graph would look more like the weak acid and strong base with a buffer zone at the end instead of at the beginning.</p>
+                    <p></p>
+                </div>
+
+                <div class="titration" id="strong-acid-strong-base">
+                    <h3>Strong Acid Strong Base</h3>
+                        <img src="img/strongacidstrongbase.png" alt="strongacidstrongbase" width="35%" height="35%">
+
+                    <!-- Two indicators, Compare and discuss, sample indicator endpoints -->
+                    <p>A titration involving a strong acid and a strong base is fairly different when compared to a titration between a strong acid and a weak base. The titration curve of a strong acid and base does not include a buffer zone, as a buffer is not formed due to the complete dissociation of both acid and base. A salt is not formed either, so there is not any <a href="hydrolysis">hydrolization</a> that causes any pH changes in the solution. Due to the fact that at the <a href="#equivalence-point">equivalence point</a> the moles of H+ and OH- are directly equal to each other, the pH of a strong acid and base titration is exactly 7.00. </p>
+                </div>
+
+                <div class="indicators" id="indicators">
+                    <h3>Indicators</h3>
+                    <p>Indicators are used to detect changes in pH in a solution by changing colour. Every indicator is a little bit different in the ranges of their colour change or the colour that they display. Below is a chart presenting the ranges of several popular indicators:<img src="img/indicator-table.png" alt="Indicator Table" width="40%" height="40%"></img> The lower bound of the pH in this indicator table represents the colour of the indicator in a solution with pH lower than that value. The range of values shown directly on the table is the mid range of the indicator; at any pH in that range, the indicator can change to a colour between its lower and higher bound colours. For example, if an indicator has a lower bound colour of yellow and an upper bound colour of blue, the colour in the middle range would be green. The upper bound number shown on the table represents the colour of the indicator at pH levels above that bound. When choosing an indicator for a titration, it is <a href="#strong-acid-strong-base">generally best practice to choose an indicator with a middle range</a> corresponding to the predicted pH of the <a href=#equivalence-point>equivalence point</a>. Indicators are usually weak acids or bases, and when dissolved in water, they dissociate slightly into their ions. Indicators form an <a href="#equilibrium">equilibrium</a> with the water, demonstrated in the equation: <br> HIn + H2O <-> H3O+ + In- <br> As shown above, the indicator, HIn, forms an equilibrium with its acid and base conjugates. The acid conjugate of the indicator displays one colour (lower bound colour), whereas the base conjugate of the indicator displayer the other colour (upper bound colour). When the moles of acid and base conjugate are equal to each other in the equilibrium, the colour that is displayed is a mix between the lower and upper bound colours. In titrations, this <a href="#transition-point">middle point of colour change</a> is recognized as the <a href="#end-point">end point</a> of the titration. When the pH of an indicator is within its lower bound, the stress on the equilibrium causes more moles of the acid conjugate to be within the system (lower bound colour dominates). When the pH is within the upper bound of the indicator, it causes the stress on the equilibrium to favour the reverse reaction and leads to more base conjugate in the system (therefore, upper bound colour shows).</p>
+                </div>
+
+                <div class="equilibrium" id="equilibrium">
+                    <h3>Equilibrium</h3>
+                    <h4>* Very closely related to buffers in titrations *</h4>
+                    <p>An equilibrium is established in a system when a reversible reaction reaches a point where the reaction rate of the forward reaction is equal to the reaction rate of the reverse reaction. At this point, the concetration of both sides of the equilibrium will remain constant, yet will still be constantly moving back and forth (hence the name dynamic equilibrium). Equilibrium is easily observable in <a href="#buffers">titrations involving buffer zones</a> (<a href="#strong-acid-weak-base">strong acid with weak base</a> and <a href="#weak-acid-strong-base">weak acid with strong base</a>). An example of a simple equilibrium could be one between an HF and NaF. Since HF is a weak acid, it will not dissociate completely in water when compared to a strong acid. As the dissociation reaction between HF and H2O goes on, it will eventually establish an equilibrium. Once equilibrium is establish in this buffer solution, the addition of the conjugate base in the form of NaF will increase the concentration of the F- ions. NaF is a strong base, and it will dissociate completely when dissolved into water (reaction goes to completion). In this solution, the initial equilibrium established by the HF and H2O will be stressed by the addition of the  The following equations are a demonstration of what this equilibrium could look like: <br><br> Addition of weak acid: <br> HF + H2O <-> H3O+ + F- <br> Addition of strong base: <br> NaF + H2O -> Na+ + F- <br> Stress on weak acid equilibrium <br> HF + H2O <-> H3O+ + F- <br> &nbsp;&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8593;&nbsp;&nbsp;&nbsp;&nbsp;&#8592;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8595;&#10506; <br><br> Once this equilibrium is created, the large presence of acid and base conjugates will lead to the solution essentially removing any additional acids or bases since the conjugate acid and base in the solution will bond with any extra H+ or OH- ions added.</p>
+                </div>
+
+                <div class="salt-solubility" id="salt-solubility">
+                    <h3>Salt Solubility</h3>
+                    <p>When a salt is added to a solution (distilled water), it is important to be able to determine whether or not it will dissociate into its separate ions within that solution. This concept of a salt dissociating into its basic ions is called solubility; it describes the behaviour a given compound has when placed inside of a solution (whether or not it will dissolve or not). Below is a chart describing whether or not a certain compound will dissociate into ions:<img src="img/solubility-table.png" alt="Solubility Table" width="40%" height="40%"></img>In titrations, salts are generally always soluble (except for some specific cases). There are very few scenarios in which an insoluble salt would be created, as the whole point of the titration is to find the equivalence point, and any precipitation of a salt could potentially affect the end point of the titration. Due to the fact that salts formed during titrations are (basically) always soluble, the <a href="#hydrolysis">dissociation of salts</a> can potentially affect the outcome of the <a href="#equivalence-point">equivalence point</a> pH.</p>
+                </div>
+
+                <div class="hydrolysis" id="hydrolysis">
+                    <h3>Hydrolysis</h3>
+                    <p>In a titration involving a strong acid and a weak base, the pH of the <a href="#equivalence-point">equivalence point</a> is often noted to be below 7.00. Conversely, in a titration involving a weak acid and a strong base, the pH of the equivalence point is observed to be above 7.00. The change in pH is caused by the conjugate base/acid of the weak titrant causing a solution to be slight basic or acidic, respectively. This conjugate base/acid is brought into being by the *salt* formed during the titration hydrolizing with water molecules in the solution. Here is an example of a weak acid and strong base titration with a <a href="#weak-acid-strong-base">pH above 7.00 due to a hydrolizing salt</a>: <br> NaOH(aq) + CH3COOH -> CH3COONa + H2O <br> CH3COONa -> CH3COO- + Na+ <br> CH3COO- + H2O -> CH3COOH + OH- <br> As demonstrated in the above equations, the salt, CH3COONa hydrolizes to eventually produce OH- ions, therefore giving the solution a more basic, greater than 7.00, pH. For strong acid and weak base titrations, the exact same scenario occurs, however the salt ends up giving off H+ ions, causing the solution to be more <a href="#strong-acid-weak-base">acidic (pH lower than 7.00)</a>.</p>
+                </div>
+
+                <div class="buffers" id="buffers">
+                    <h3>Buffers</h3>
+                    <p>Buffers are able to resist small changes in a solutions pH by detecting stresses and shifts between specific compounds in a solution and restoring equilibrium by essentially 'removing' added protons and hydroxide ions. Buffers consist of weak acids (CH3COOH) and their conjugate bases (CH3COONa, containing base CH3COO-), and vice versa of weak bases (C5H5N) and their conjugate acids (C5H5NH+, proton donated by H2O). Buffers are observed in titrations involving <a href="#weak-acid-strong-base">weak acids with strong bases</a>, and <a href="#strong-acid-weak-base">strong acids with weak bases</a> due to the aforementioned requirements for a buffer to be created (proven by the buffer zones in those titration curves). In terms of how buffers actually work, when their is conjugate acid and base in a solution, they are able to neutralize other acid and bases added in. A weak acid or base will continuously dissociate until it establishes an <strong><a href="#equilibrium">equilibrium</a></strong> with the water molecules in the solution. At this point, the addition of a conjugate base/acid will increase the concentration of the conjugate acid/base in the solution, and therefore decrease the amount of dissociation established in the beginning equilibrium.</p>
+                </div>
+
+
+            </div> <!-- /main -->
+
+        </section>
+
+
+        <!-- Footer -->
+
+        <footer>
+            <section class="footer-info" id="footer">
+
+                <div class="home-footer-main">
+                    <h3>Return Home</h3>
+                    <a href="#" class="btn">Top of Page</a>
+                </div>
+
+                <div class="social-footer-main">
+                    <h3>Contact and Social Information</h3>
+                    <a href="mailto:walkerrout04@gmail.com" class="footer__link">walkerrout04@gmail.com</a>
+                    <ul class="social-list">
+
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="https://github.com/WalkerRout" target="_blank">
+                                <i class="fab fa-github"><p> Github</p></i>
+                            </a>
+                        </li>
+
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="https://walker.rout.ca" target="_blank">
+                                <i class="far fa-window-maximize"><p> Website</p></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </section>
+            
+        </footer>
+
+        <script src="js/main.js"></script>
+
+	</body>
+    
+</html>
+
+
+<!-- Test Code:
+
+
+<section class="equilibrium-info" id="equilibrium">
+    <h2 class="section__title section__title-equilibrium">Equilibrium</h2>
+    <div class="equilibrium-main">
+
+        <div class="equilibrium">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="equilibrium">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="equilibrium">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+
+    </div> 
+
+    <a href="#salt-solubility" class="btn">Salt Solubility and Equilibrium</a>
+</section>
+
+
+<section class="salt-solubility-info" id="salt-solubility">
+    <h2 class="section__title section__title-salt-solubility">Salt Solubility</h2>
+    <div class="salt-solubility-main">
+
+        <div class="salt-solubility">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="salt-solubility">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="salt-solubility">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+
+    </div>
+
+    <a href="#hydrolysis" class="btn">Hydrolysis</a>
+</section>
+
+
+<section class="hydrolysis-info" id="hydrolysis">
+    <h2 class="section__title section__title-hydrolysis">Hydrolysis</h2>
+    <div class="hydrolysis-main">
+
+        <div class="hydrolysis">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="hydrolysis">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="hydrolysis">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+
+    </div> 
+
+    <a href="#buffer" class="btn">Buffers</a>
+</section>
+
+
+
+<section class="buffer-info" id="buffer">
+    <h2 class="section__title section__title-buffer">Buffers</h2>
+    <div class="buffer-main">
+
+        <div class="buffer">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="buffer">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="buffer">
+            <h3></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+
+    </div>
+
+    <a href="#titration" class="btn">Titration</a>
+</section>
+
+
+
+-->
